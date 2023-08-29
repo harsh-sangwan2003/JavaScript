@@ -23,12 +23,6 @@ Please install the following npm packages before running the script
 - nodejs
 - npm
 
-To install the dependencies run:
-
-```js
-npm install dependencies
-```
-
 ## Usage
 
 This repo contains all the necessary resources required to learn JavaScript.
