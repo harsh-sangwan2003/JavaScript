@@ -1,0 +1,1 @@
+// Higher order function is a function which takes in a function as an argument and returns a function as a result.
