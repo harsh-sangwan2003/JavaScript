@@ -3,10 +3,12 @@ console.log("Program starts");
 setTimeout(() => {
 
     console.log("I am setTimeout")
-}, 1000);
+}, 10);
 
 Promise.resolve().then(() => {
-    console.log("Promise output");
+    setTimeout(() => {
+        console.log("Promise ends.");
+    }, 0);
 })
 
 console.log("Program Ends.");
