@@ -13,7 +13,7 @@ let p3 = new Promise((resolve, reject) => {
     resolve('Promise 3 is resolved');
 })
 
-// If any one of the promises is rejected then the entire array of promises is rejected
+// Shows all the promises whether they are resolved or rejected
 let promiseArr = Promise.allSettled([p1, p2, p3]);
 promiseArr.then((arr) => {
 

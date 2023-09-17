@@ -13,7 +13,7 @@ let p3 = new Promise((resolve, reject) => {
     resolve('Promise 3 is resolved');
 })
 
-// The promise recieved is resolved/rejected
+// Shows the first promise whether it is resolved or rejected
 let promiseArr = Promise.race([p1, p2, p3]);
 promiseArr.then((arr) => {
 
